@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Firehose Project quiz before joining team project.
 
-Things you may want to cover:
+Routing error:
+Go to routes.rb in the config folder and check that 'users' has been correctly routed depending on whether it is a static page or not. I would then check the 'users' model to determine that it has been defined
 
-* Ruby version
+NoMethodError
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I would go to the Questions controller inside 'app/controllers' here I would check that 'index' has been defined and then check for the 'answers' method inside the 'index'.
